@@ -30,7 +30,9 @@ class Counter extends Component {
   render() {
     return (
       <div>
-        <h1 className="dispaly-4 mt-4">COUNT : {this.state.count}</h1>
+        <h1 className="dispaly-4 mt-4">
+          CLASS BASED COUNT : {this.state.count}
+        </h1>
         <button onClick={this.handleInc} className="btn btn-dark">
           Arttır
         </button>
