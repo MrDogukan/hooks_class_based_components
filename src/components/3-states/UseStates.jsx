@@ -21,7 +21,8 @@ const UseStates = () => {
   };
 
   const incAge = () => {
-    setInfo(info.age + 1);
+    // setInfo(info.age + 1);
+    setInfo({ ...info, age: info.age + 1 });
   };
 
   return (
